@@ -1,0 +1,21 @@
+# ── Secrets ─────────────────────────────────────────────
+# Nothing in this project needs a secret. If one ever does, it stays out of
+# git: the ATBU project tracked .env and lived with live keys in its history.
+.env
+.env.*
+*.key
+*.pem
+
+# ── Generated ───────────────────────────────────────────
+*.png
+out/
+node_modules/
+
+# ── Editors / OS ────────────────────────────────────────
+.vscode/
+.idea/
+.claude/
+*.swp
+.DS_Store
+Thumbs.db
+*.log
